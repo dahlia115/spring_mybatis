@@ -6,7 +6,10 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.care.root.member.dao.MemberDAO"><!-- 여기와 연결하겠다 -->
-
+	<!-- dao와 같은 이름을 찾는다 -->
+	<insert id="insertMember">
+		insert into test_mybatis values(#{id},#{name})
+	</insert>
 </mapper>
 
 
