@@ -1,5 +1,8 @@
 package com.care.root.member.service;
 
-public interface MemberServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class MemberServiceImpl implements MemberService{
 
 }
